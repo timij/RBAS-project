@@ -1,0 +1,1 @@
+draw_sprite_ext(s_healthbar,o_player.health_,view_xport[0],view_yport[0],1,1,0,c_white,0.8)

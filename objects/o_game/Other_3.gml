@@ -1,0 +1,11 @@
+part_type_destroy(global.Particle1);
+part_type_destroy(global.Particle2);
+part_type_destroy(global.Particle3);
+part_type_destroy(global.Particle4);
+part_type_destroy(global.Particle5);
+part_type_destroy(global.Particle6);
+part_type_destroy(global.Particle7);
+part_type_destroy(global.Particle8);
+part_type_destroy(global.Particle9);
+part_system_destroy(global.P_System);
+game_restart();

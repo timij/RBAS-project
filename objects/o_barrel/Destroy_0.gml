@@ -1,0 +1,1 @@
+part_particles_create(global.P_System, x+16, y+16, global.Particle4, 10);

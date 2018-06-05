@@ -1,0 +1,17 @@
+var dir = point_direction(x, y, o_player.x, o_player.y)
+var bullet = instance_create_layer(x, y, "Instances", o_boss_bullet21);
+bullet.direction = dir;
+bullet.image_angle = dir;
+bullet.speed = 8
+var dir = point_direction(x, y, o_player.x+35, o_player.y+35)
+var bullet = instance_create_layer(x, y, "Instances", o_boss_bullet21);
+bullet.direction = dir;
+bullet.image_angle = dir;
+bullet.speed = 8
+var dir = point_direction(x, y, o_player.x-35, o_player.y-35)
+var bullet = instance_create_layer(x, y, "Instances", o_boss_bullet21);
+bullet.direction = dir;
+bullet.image_angle = dir;
+bullet.speed = 8
+bullet_cooldown_ = game_get_speed(gamespeed_fps);
+alarm[2] = 20

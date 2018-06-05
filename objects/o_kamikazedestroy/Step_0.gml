@@ -1,0 +1,1 @@
+effect_create_above(ef_flare,x,y,0.1,c_yellow)
